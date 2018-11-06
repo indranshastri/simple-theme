@@ -1,0 +1,141 @@
+/*
+Theme Name: Simple Theme 
+Theme URI: https://simpletheme.io
+Author: Indra Shastri
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body{
+	font-family: Arial;
+	font-size: 15px;
+	color: #333;
+	background: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+}
+
+header{
+	background: #393939;
+	color:#ffff;
+	padding: 20px 20px;
+}
+
+header h1 a{
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 10px;
+	text-decoration: none;
+
+}
+a{
+	color: #333;
+}
+.container{
+ 	width: 1020px;
+ 	margin: 0 auto;
+ 	overflow: auto;
+}
+
+.clr{
+	clear:both;
+}
+
+.main {
+	margin: 15px 0;
+	float:left;
+	width:68%;
+}
+footer{
+	background: #393939;
+	color:#ffff;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+article.post{
+	border-bottom:1px #ccc solid;
+	overflow: hidden;
+	padding-bottom:20px;
+}
+
+article.post a.button{
+	background: #333;
+	color: #fff;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+.post-thumbnail img{
+	width:100%;
+	height:auto;
+
+}
+
+
+.main-nav{
+	background:#000;
+	color:#fff;
+	padding:5px;
+}
+
+
+.main-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.main-nav li {
+	list-style: none;
+	float: left;
+	padding-right: 15px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.sidebar{
+	float: right;
+	width: 28%;
+}
+
+.side-widget{
+	border:1px #ccc solid;
+	padding:10px 10px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.side-widget ul{
+	padding:0;
+	margin:0;
+}
+
+.side-widget li{
+	list-style: none;
+	line-height:2.2em;
+	border-bottom:dotted 1px #ccc;
+}
+
+.side-widget a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
